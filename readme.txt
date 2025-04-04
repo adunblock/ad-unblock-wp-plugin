@@ -38,6 +38,18 @@ Ad Unblock plugin allows you to easily integrate your WordPress site with the [A
 4. Enter your verification code from the Ad Unblock dashboard
 5. Configure which pages should have the script enabled
 
+== External services ==
+
+This plugin connects to the Ad Unblock service (https://config.adunblocker.com/valid_script_sources.json) to obtain script source URLs. The script source URLs may change hence the server side fetch.
+
+= Data Transmitted =
+* The plugin fetches script source URLs from https://config.adunblocker.com/valid_script_sources.json (cached for 5 minutes)
+* No personal user data is collected or transmitted by the plugin itself
+
+The external service is provided by Ad Unblock:
+* [Terms of Service](https://ad-unblock.com/terms)
+* [Privacy Policy](https://ad-unblock.com/privacy/wp-plugin)
+
 == Frequently Asked Questions ==
 
 = Do I need an Ad Unblock account to use this plugin? =
