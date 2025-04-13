@@ -71,9 +71,11 @@ No, the plugin is designed to be lightweight and efficient. It uses caching to m
 == Screenshots ==
 
 1. Admin settings page where you can configure your verification code and page rules.
-![Admin Settings Page](assets/screenshot.png)
 
 == Changelog ==
+
+= 1.0.1 =
+* Update Plugin registry Logo/Banner/Screenshots
 
 = 1.0.0 =
 * Initial release
