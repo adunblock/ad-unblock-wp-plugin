@@ -74,9 +74,6 @@ No, the plugin is designed to be lightweight and efficient. It uses caching to m
 
 == Changelog ==
 
-= 1.0.1 =
-* Update Plugin registry Logo/Banner/Screenshots
-
 = 1.0.0 =
 * Initial release
 * Added logo and "AdUnblock" text to admin interface
