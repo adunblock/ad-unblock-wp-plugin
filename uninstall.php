@@ -3,7 +3,7 @@
  * Fired when the plugin is uninstalled.
  *
  * @link       https://ad-unblock.com
- * @since      1.0.0
+ * @since      1.0.1
  *
  * @package    Ad_Unblock
  */
