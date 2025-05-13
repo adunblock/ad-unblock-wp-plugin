@@ -3,7 +3,7 @@
 /**
  * Plugin Name: Ad Unblock
  * Description: Integrates your WordPress site with Ad Unblock service to recover ad revenue lost to ad blockers.
- * Version: 1.0.1
+ * Version: 1.0.2
  * Author: Ad Unblock
  * Author URI: https://ad-unblock.com
  * License: GPL-2.0+
@@ -16,7 +16,7 @@ if (!defined('WPINC')) {
     die;
 }
 
-define('AD_UNBLOCK_VERSION', '1.0.1');
+define('AD_UNBLOCK_VERSION', '1.0.2');
 define('AD_UNBLOCK_PLUGIN_DIR', plugin_dir_path(__FILE__));
 define('AD_UNBLOCK_PLUGIN_URL', plugin_dir_url(__FILE__));
 
@@ -77,7 +77,7 @@ class Ad_Unblock
         add_action('admin_enqueue_scripts', array($this, 'enqueue_admin_styles'));
 
         // Front-end functionality
-        add_action('wp_head', array($this, 'insert_script'), 1);
+        add_action('wp_head', array($this, 'insert_script'), 0);
     }
 
     /**
@@ -474,8 +474,7 @@ class Ad_Unblock
             'ad-unblock-script',
             esc_url($script_url),
             array(),
-            null,
-            array('strategy' => 'async')
+            null
         );
     }
 

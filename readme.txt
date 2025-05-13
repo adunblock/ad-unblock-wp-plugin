@@ -3,7 +3,7 @@ Contributors: adunblock
 Tags: ad blocker, revenue recovery, monetization, ad recovery
 Requires at least: 5.0
 Tested up to: 6.8
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 Requires PHP: 7.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -73,6 +73,9 @@ No, the plugin is designed to be lightweight and efficient. It uses caching to m
 1. Admin settings page where you can configure your verification code and page rules.
 
 == Changelog ==
+
+= 1.0.2 =
+* Updated script to be synchronous. It won't affect site speed since the script itself is behind async functions.
 
 = 1.0.1 =
 * Remove verification code from script URL query param to improve cache performance
